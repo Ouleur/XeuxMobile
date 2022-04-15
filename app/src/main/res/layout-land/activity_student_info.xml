@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_info">
+
+    <TextView
+        android:id="@+id/textNiveau"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/titleNiveau"
+        app:layout_constraintTop_toBottomOf="@+id/textFiliere" />
+
+    <TextView
+        android:id="@+id/titleNiveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="39dp"
+        android:text="@string/niveau"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleFiliere" />
+
+    <TextView
+        android:id="@+id/textFiliere"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="21dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/titleFiliere"
+        app:layout_constraintTop_toBottomOf="@+id/textDateNaissance" />
+
+    <TextView
+        android:id="@+id/titleFiliere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/fili_re"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleDateNaiss" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="169dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="351dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="68dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/retour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/titleDateNaiss"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lolo" />
+
+    <TextView
+        android:id="@+id/tittleMtle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/matricule"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/titleDateNaiss"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleNom" />
+
+    <TextView
+        android:id="@+id/textMtle"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="107dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tittleMtle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/nom_et_pr_noms"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tittleMtle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNom"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="53dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/titleNom"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleDateNaiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/date_de_naissance"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tittleMtle" />
+
+    <TextView
+        android:id="@+id/textDateNaissance"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/titleDateNaiss"
+        app:layout_constraintTop_toBottomOf="@+id/textMtle" />
+
+
+    <TextView
+        android:id="@+id/tittleCarte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="65dp"
+        android:text="@string/carte"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textCarte"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleNiveau" />
+
+    <TextView
+        android:id="@+id/textCarte"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="52dp"
+        android:textColor="#4f0238"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tittleCarte"
+        app:layout_constraintTop_toBottomOf="@+id/textNiveau" />
+
+    <Button
+        android:id="@+id/retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/lier_la_carte"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">XeuX Enrollement</string>
+
+    <string name="title_activity_scanned_barcode">ScannedBarcodeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="matricule">Matricule</string>
+    <string name="carte">ID Carte</string>
+    <string name="lier_la_carte">Retourner</string>
+    <string name="titleNumero">Numéro</string>
+    <string name="titleNom">Nom</string>
+    <string name="titleFiliere">Filière</string>
+    <string name="titleNaissance">Filière</string>
+    <string name="student_photo">Student Photo</string>
+    <string name="date_de_naissance">Date de naissance :</string>
+    <string name="nom_et_pr_noms">Nom et Prénoms</string>
+    <string name="title_activity_student_info">Student_info</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="fili_re">Filière</string>
+    <string name="niveau">Niveau</string>
+    <string name="todo">TODO</string>
+
+    <string name="prefs_local_address">Adresse locale</string>
+    <string name="prefs_internet_address">Adresse Internet</string>
+    <string name="temps">Duree MAJ</string>
+    <string name="pref_seek_val">pref_time_val</string>
+    <string name="seconds">Temps d\'envoie de des fichiers</string>
+    <string name="nombre_save">Nombre de fichiers</string>
+    <string name="choix_save_title">Type du serveur</string>
+    <string name="choix_save">choix_save</string>
+    <string name="choix">Choix du type de serveur</string>
+    <string-array name="pref_seek_values">
+        <item>30s</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>20min</item>
+        <item>30min</item>
+        <item>1H</item>
+        <item>2H</item>
+        <item>5H</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>30000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1200000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>18000000</item>
+    </string-array>
+
+    <string-array name="pref_choix">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="pref_choix_save_values">
+        <item>Serveur local</item>
+        <item>Serveur Distant</item>
+    </string-array>
+
+</resources>

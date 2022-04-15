@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--below line is to create preference category-->
+    <PreferenceCategory android:title="General">
+        <EditTextPreference
+            android:key="adress_local"
+            android:title="@string/prefs_local_address"
+            android:defaultValue="http://0.0.0.0"
+
+            />
+        <EditTextPreference
+            android:key="adress_internet"
+            android:title="@string/prefs_internet_address"
+            android:defaultValue="http://0.0.0.0"
+            />
+
+        <ListPreference
+            android:defaultValue="Serveur local"
+            android:dialogTitle="@string/choix_save_title"
+            android:entries="@array/pref_choix_save_values"
+            android:entryValues="@array/pref_choix"
+            android:key="@string/choix_save"
+            android:summary="@string/choix"
+            android:title="@string/choix_save_title"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
